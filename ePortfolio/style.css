@@ -1,0 +1,109 @@
+/*Desktop Navigation*/
+.navDesktop {
+  background-color: rgb(201, 0, 0);
+  width: 100%;
+  border-radius: 12px;
+}
+
+.navDesktop ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(201, 0, 0);
+  position: fixed;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.navDesktop ul li {
+  float: right;
+}
+
+.navDesktop ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.navDesktop ul li a:hover {
+  background-color: rgb(117, 0, 0);
+  border-radius: 5px;
+}
+
+
+/* mobile Navigation */
+.navMobile {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.navMobile #seitenLinks {
+  display: none;
+}
+
+.navMobile a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.navMobile a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navMobile a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: rgb(201, 0, 0);
+  color: white;
+}
+
+
+/* footer  */
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+
+  bottom: 0;
+  width: 100%;
+}
+
+/* content  */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* media queries  */
+@media (max-width: 750px) {
+  .navDesktop {
+    display: none;
+  }
+
+  .navDesktop ul li {
+    display: none;
+  }
+}
+
+@media (min-width: 751px) {
+  .navMobile {
+    display: none;
+  }
+}
