@@ -110,6 +110,10 @@ body {
   margin-top: 50px;
 }
 
+h1{
+  text-align: center;
+}
+
 h2{
   color: #333;
 }
@@ -121,18 +125,29 @@ h2{
 .boxInhalt{
   display: flex;
   justify-content: space-around;
-
+  color: white;
 }
 
 .boxInhalt a div{
+  display: flex;
   background-color: #F5A6D5;
   width: 250px;
   height: 100px;
   justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px;
+  
 }
 
 a{
   text-decoration: none;
+  margin: auto;
+}
+
+p{
+  color: black;
+  
 }
 
 .seitenInhalt{
@@ -160,6 +175,10 @@ a{
 
 .wrapper{
   flex-wrap: wrap;
+}
+
+.trenner{
+  border-top: bold #333 3px ;
 }
 
 /*Bilder*/
@@ -200,7 +219,9 @@ a{
 }
 
 @media (max-width: 840px) {
-  
+  .boxInhalt{
+    flex-wrap: wrap;
+  }
 }
 
 /*PC*/
