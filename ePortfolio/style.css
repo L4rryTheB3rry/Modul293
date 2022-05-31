@@ -97,7 +97,7 @@ body {
 }
 
 #catGif{
-  width: 300px;
+  width: 400px;
 }
 
 #index h1{
@@ -171,6 +171,41 @@ p{
 .aufgabeGrp{
   display: grid;
   grid-template-columns: 33% 66%;
+}
+
+.verzeichnisse{
+  display: flex;
+}
+
+.quellenBox{
+  margin: 10px;
+  background-color: #9CF595;
+  border: 3px #3EA637 dotted;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.quellenBox h2{
+  margin-top: 0px;
+}
+
+.quellen{
+  text-align: center;
+
+}
+
+table, th, td{
+  border: 2px solid #333;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table{
+  margin: 10px;
+}
+
+td{
+  word-wrap:break-word;
 }
 
 .wrapper{

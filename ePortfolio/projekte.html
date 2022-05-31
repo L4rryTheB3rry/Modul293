@@ -1,91 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E-Portfolio Larissa Skala</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    
-    <body>
-    
-        <header>
-            <div class="navDesktop">
-                <ul>
-                    <li>
-                        <a href="vortrag.html">Vortrag</a>
-                    </li>
-                    <li>
-                        <a href="planung.html">Planung</a>
-                    </li>
-                    <li>
-                        <a href="infos.html">Informationsbeschaffung</a>
-                    </li>
-                    <li>
-                        <a href="iperka.html">IPERKA</a>
-                    </li>
-                    <li>
-                        <a href="projekte.html">Projekte</a>
-                    </li>
-                    <li>
-                       <a href="organisation.html">Organisation</a> 
-                    </li>
-                    <li>
-                       <a href="index.html">Home</a> 
-                    </li>
-                </ul>
-    
-            </div>
-    
-            <div class="navMobile">
-                <a  class="active">E-Portfolio</a>
-                <div id="seitenLinks">
-    
-                    <a href="index.html">Home</a>
-                    <a href="organisation.html">Organisation</a>
-                    <a href="projekte.html">Projekte</a>
-                    <a href="iperka.html">IPERKA</a>
-                    <a href="infos.html">Informationsbeschaffung</a>
-                    <a href="planung.html">Planung</a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio Larissa Skala</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navDesktop">
+            <ul>
+                <li>
                     <a href="vortrag.html">Vortrag</a>
-    
-    
-    
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="burgeer()">
-                    <i class="fa fa-bars"></i>
-                </a>
+                </li>
+                <li>
+                    <a href="planung.html">Planung</a>
+                </li>
+                <li>
+                    <a href="infos.html">Informationsbeschaffung</a>
+                </li>
+                <li>
+                    <a href="iperka.html">IPERKA</a>
+                </li>
+                <li>
+                    <a href="projekte.html">Projekte</a>
+                </li>
+                <li>
+                    <a href="organisation.html">Organisation</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="navMobile">
+            <a class="active">E-Portfolio</a>
+            <div id="seitenLinks">
+
+                <a href="index.html">Home</a>
+                <a href="organisation.html">Organisation</a>
+                <a href="projekte.html">Projekte</a>
+                <a href="iperka.html">IPERKA</a>
+                <a href="infos.html">Informationsbeschaffung</a>
+                <a href="planung.html">Planung</a>
+                <a href="vortrag.html">Vortrag</a>
+
+
+
             </div>
-            </div>
-    
-            <script>
-                function burgeer() {
-                    var links = document.getElementById("seitenLinks");
-                    if (links.style.display === "block") {
-                        links.style.display = "none";
-                    } else {
-                        links.style.display = "block";
-                    }
+            <a href="javascript:void(0);" class="icon" onclick="burgeer()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        </div>
+
+        <script>
+            function burgeer() {
+                var links = document.getElementById("seitenLinks");
+                if (links.style.display === "block") {
+                    links.style.display = "none";
+                } else {
+                    links.style.display = "block";
                 }
-            </script>
-    
-    
-        </header>
+            }
+        </script>
 
 
+    </header>
+
+    <div class="seitenInhalt">
+        <h1>Projekt</h1>
+        <hr>
+
+        <div id="planung1" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>Arbeitsauftrag: Phasenablauf IT-Projekt</b>
+                <br><br>
+                <i>
+                    1) Überlegen Sie sich fünf Aufträge, die Sie in Ihrem Lehrbetrieb ausgeführt
+                    haben, aktuell am Bearbeiten sind oder zukünftig ausführen werden.
+                </i>
+                <br><br>
+                <i>
+                    2) Beschreiben Sie diese Aufträge detailliert und ordnen Sie diese einer Projektphase zu. Begründen
+                    Sie Ihre Zuordnung.
+                </i>
+                <br><br>
+                <i>
+                    3) Haben Sie in der Sekundarschule ein Projekt durchgeführt? Beschreiben
+                    Sie dieses und Ihre Erfahrungen damit. Was für Punkte haben Sie in diesem Projekt gelernt?
+                </i>
+            </div>
+            <div class="aufgabe">
+                1) Im Basislehrjahr haben wir laufend kleinere Projekte und manchmal ein grösseres. Beispiele sind:
+
+                <ul>
+                    <li>Java-Projekt</li>
+                    <li>HTML/PHP Seite</li>
+                    <li>Hyper-V aufsetzen</li>
+                    <li>eine Vorlage für Word erstellen</li>
+                </ul>
+                <br><br>
+
+                2) Nun gehen wir etwas ins Detail mit den Aufträgen. Da ich im Basislehrjahr ICT bin, sehen diese etwas
+                anders aus als in einem "echten" Betrieb.
+                <br><br>
+                Java-Projekt:
+
+                <table>
+                    <tr>
+                        <th>Schritt</th>
+                        <th>Beschreibung</th>
+                    </tr>
+                    <tr>
+                        <td>Inizialisierung</td>
+                        <td>Der Auftrag bestand daraus, ein Organisationssystem mit einer Array-List in Java zu
+                            erstellen in einem Thema, welches mich interessiert. Das Ganze wurde in JavaFX umgesetzt.
+                            <br>
+                            Da mich Motorräder interessieren, nahm ich mir vor, eine virtuelle Motorradgarage zu
+                            programmieren.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Konzept</td>
+                        <td>Ich überlegte mir als nächstes, welche Seiten und Klassen ich benötige für mein Projekt
+                            (Klassendiagramm) und auch schon wie ich das Ganze designen möchte und Skizzierte das auf.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Realisierung</td>
+                        <td>Umgesetzt habe ich das Projekt in Apache Netbeans (JavaFX) in Kombination mit SzeneBuilder.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Einführung</td>
+                        <td>Eine Einführung gab es nicht wirklich, es wurde einfach dem Betreuer gezeigt und aufs Moodle
+                            hochgeladen. </td>
+                    </tr>
+                </table>
+                <br><br>
+
+                HTML/PHP-Seite:
+
+                <table>
+                    <tr>
+                        <th>Schritt</th>
+                        <th>Beschreibung</th>
+                    </tr>
+                    <tr>
+                        <td>Inizialisierung</td>
+                        <td>Dieser Auftrag war Vorgegeben vom Basislehrjahr:
+                            <br>
+                            "Erstelle ein Autohausverwaltungstool, indem Personen und deren Auto verwaltet werden (ohne
+                            Datenbank). Erstelle dieses Tool mit Hilfe von Klassen. Erstelle dazu ein Eingabeformular
+                            (kundenfreundlich), damit du Kunden und deren Autos erfassen kannst."
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Konzept</td>
+                        <td>
+                            Geplant wurde wieder ein Klassendiagramm und das Design der Seite, um diese möglichst
+                            Kundenfreundlich zu gestalten.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Realisierung</td>
+                        <td>
+                            Zuerst schrieb ich die HTML-Seite und verschönerte diese mit CSS und anschliessend baute ich
+                            PHP ein und testete aus.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Einführung</td>
+                        <td>Hochladen aufs Moodle.</td>
+                    </tr>
+                </table>
+                <br><br>
+                Hyper-V aufsetzen:
+
+                <table>
+                    <tr>
+                        <th>Schritt</th>
+                        <th>Beschreibung</th>
+                    </tr>
+                    <tr>
+                        <td>Inizialisierung</td>
+                        <td>Dieser Auftrag war auch Vorgegeben vom Basislehrjahr: <br>
+                            "Erstelle auf einem Server vom RZ einen Microsoft Hyper-V Server. Eigne dir das Wissen über
+                            den Hyper-V Server an und probiere auf einem echten System, ob es funktioniert.
+                            Dokumentiere es für dich und beschreibe die Installation, Konfiguration und Einstellungen
+                            so, dass man dieses Dokument an einen Dritten abgeben könnte und dieser keine Fragen mehr
+                            hat. Beschreibe auch die Eigenschaft vom Hyper-V Server, was ist speziell an dieser
+                            Serverinstallation. Wichtiger Hinweis: Auf den HP G5-Servern kann maximal Windows 2012 R2
+                            für Hyper-V verwendet werden.(Kompatibilität mit SLAT)"</td>
+                    </tr>
+                    <tr>
+                        <td>Konzept</td>
+                        <td>
+                            Ich suchte nach Informationen und einem Tutorial, um den Server einfacher aufzusetzen.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Realisierung</td>
+                        <td>
+                            Ich folgte dem Tutorial und Setzte den Server auf
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Einführung</td>
+                        <td>Hochladen aufs Moodle.</td>
+                    </tr>
+                </table>
+                <br><br>
+
+                eine Vorlage für Word erstellen:
+                <table>
+                    <tr>
+                        <th>Schritt</th>
+                        <th>Beschreibung</th>
+                    </tr>
+                    <tr>
+                        <td>Inizialisierung / Konzept</td>
+                        <td>
+                            Diese Aufträge standen ganz am Anfang des Jahres und wir folgten deshalb Schritt für Schritt
+                            den Erklärungen der Betreuer. Deshalb werde ich auf diesen Auftrag auch nicht genauer
+                            eingehen.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Realisierung</td>
+                        <td>
+                            Den Anweisungen Folgen
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Einführung</td>
+                        <td>Hochladen aufs Moodle.</td>
+                    </tr>
+                </table>
+                <br>
+                <i>alle in "" geschriebenen Aufträge sind aus unserem BLJ-Moodle unter
+                    https://lernen.zbw.ch/</i>
+
+            </div>
+        </div>
+        <hr>
+        <div id="planung2" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>
+                    Arbeitsauftrag: Gantt-Diagramm E-Portfolio
+                </b>
+                <br><br>
+                <i>
+                    1) Strukturieren Sie Ihre Aktivitäten zur Erstellung des E-Portfolios und erstellen Sie dazu ein
+                    Gantt-Diagramm. Verwenden Sie konkrete und realistische Termine und setzen Sie zudem Meilensteine.
+                </i>
+                <br><br>
+                <i>
+                    2) Beschreiben Sie, wie Ihnen die Aufgabe geglückt ist. War die Planung
+                    und Erstellung einfach oder hatten Sie Probleme dabei? Erläutern Sie Ihr
+                    Vorgehen und Ihre Erkenntnisse daraus
+                </i>
+            </div>
+            <div class="aufgabe">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic qui mollitia, cum dolorem vel earum
+                repudiandae, consequatur rem veniam quo doloremque quia voluptatum! Maxime error soluta porro illo sit
+                aperiam!
+            </div>
+        </div>
+        <hr>
+        <div id="planung2" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>
+                    Arbeitsauftrag: Projektrollen und deren Aufgaben, Kompetenzen
+                    und Verantwortlichkeiten
+                </b>
+                <br><br>
+                <i>
+                    1) Überlegen Sie sich drei verschiedene Rollen in einem Projekt und beschreiben Sie diese.
+                </i>
+                <br><br>
+                <i>
+                    2) Ergänzen Sie zu jeder gefundenen Rolle eine Tabelle mit den Aufgaben,
+                    Kompetenzen und Verantwortungen.
+                </i>
+            </div>
+
+            <div class="aufgabe">
+                In einem Projekt gibt es unterschiedliche Rollen. Ein paar, die mir gerade einfallen sind:
+
+                <ul>
+                    <li>Kunde</li>
+                    <li>Projektmanager</li>
+                    <li>Mitarbeiter</li>
+                    <li>Tester</li>
+                    <li>Lenkungsausschuss</li>
+                </ul>
+                Ich beschreibe das Ganze nun mit einem Beispiel, welches so bei der Firma in der ich tätig bin (Stadler
+                Rail) geschehen könnte:
+                <br><br>
+                Der Kunde: SBB
+                <br>
+                Die SBB möchte einen neuen Doppelstockzug, mit WLAN und Steckdosen und bezahlt ihn, wenn er fertig
+                gestellt wurde.
+                <br><br>
+                Der Projektmanager:
+                <br>
+                Er spricht mit dem Kunden und klärt ab, was die SBB genau will und teilt ein, wer was wann macht, zum
+                Beispiel dürfen bei diesem Zug die Lehrlinge der Automation eine Schaltung bauen.
+                <br><br>
+                Der Mitarbeiter:
+                <br>
+                Er bekommt vom Projektleiter den Auftrag, die Alukästen zusammenzuschweissen bis Monatsende.
+                <br><br>
+                Der Tester: <br>
+                Er ist häufig auch ein Mitarbeiter, er Testet in der Inbetriebsetzung den Zug von unten bis oben durch.
+                <br><br>
+                Lenkungsausschluss:
+                <br>
+                Ein Teil der Leitung, entscheidet bei Widersprüchen und Konflikten, was getan werden muss.
+                <br><br>
+                Zu drei dieser Rollen erstelle ich nun eine Tabelle mit Aufgaben, Kompetenzen und Verantwortung:
+                <br><br>
+
+                Projektmanager:
+                <table>
+                    <tr>
+                        <th>
+                            Aufgabe
+                        </th>
+                        <td>
+                            -die Aufgaben zu erledigen, die er vom Projektleiter bekommt <br>
+                            -Bsp.: muss bis Monatsende die Alukästen schweissen
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Kompetenz</th>
+                        <td>
+                            -kann Schweissen <br>
+                            -kennt die Sicherheitsordnung <br>
+                            -darf die Schweissmaschine bedienen <br>
+                            -darf ins Lager seine Ressourcen holen <br>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Verantwortung</th>
+                        <td>
+                            -muss seine Arbeit gemäss den Standarts bis zum besprochenen Termin erledigen
+                        </td>
+                    </tr>
+
+                </table>
+                <br><br>
+
+                Mitarbeiter:
+                <table>
+                    <tr>
+                        <th>
+                            Aufgabe
+                        </th>
+                        <td>
+                            -Bestimmen, wer welche Aufgabe hat <br>
+                            -kontrollieren, was gemacht wurde <br>
+                            -chef vom Projekt <br>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Kompetenz</th>
+                        <td>
+                            -Bestimmen, wer welche Aufgabe hat <br>
+                            -Menschenkenntnis
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Verantwortung</th>
+                        <td>
+                            -ist verantwortlich, dass die SBB mit ihrem Zug zufrieden ist <br>
+                            -übernimmt Verantwortung über das gesamte Projekt
+
+                        </td>
+                    </tr>
+
+                </table>
+                <br><br>
+
+                Tester:
+                <table>
+                    <tr>
+                        <th>
+                            Aufgabe
+                        </th>
+                        <td>
+                            -Testen, ob alles so ist wie es sein sollte <br>
+                            -setzt in der IBS den Zug zum ersten Mal unter Strom und schaut ob alles richtig läuft
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Kompetenz</th>
+                        <td>
+                            -kennt die Vorgaben <br>
+                            -darf Testen <br>
+                            -darf den Strom in der IBS anstellen
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Verantwortung</th>
+                        <td>
+                            -muss ganz genau Bescheid geben was stimmt und was nicht <br>
+                            -muss schauen, dass in der IBS die Warnleuchten leuchten und keiner den unter Strom
+                            gesetzten Zug anfasst
+
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
     <footer>
         <address>
             E-Portfolio <br>
             Larissa Skala <br>
             09.05.2022 <br>
             Entwurf
-            </address>
-        
+        </address>
+
         <div>
             <i>jegliche Haftung wird abgelehnt</i>
         </div>
     </footer>
 </body>
+
 </html>
