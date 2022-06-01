@@ -1,79 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E-Portfolio Larissa Skala</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    
-    <body>
-    
-        <header>
-            <div class="navDesktop">
-                <ul>
-                    <li>
-                        <a href="vortrag.html">Vortrag</a>
-                    </li>
-                    <li>
-                        <a href="planung.html">Planung</a>
-                    </li>
-                    <li>
-                        <a href="infos.html">Informationsbeschaffung</a>
-                    </li>
-                    <li>
-                        <a href="iperka.html">IPERKA</a>
-                    </li>
-                    <li>
-                        <a href="projekte.html">Projekte</a>
-                    </li>
-                    <li>
-                       <a href="organisation.html">Organisation</a> 
-                    </li>
-                    <li>
-                       <a href="index.html">Home</a> 
-                    </li>
-                </ul>
-    
-            </div>
-    
-            <div class="navMobile">
-                <a  class="active">E-Portfolio</a>
-                <div id="seitenLinks">
-    
-                    <a href="index.html">Home</a>
-                    <a href="organisation.html">Organisation</a>
-                    <a href="projekte.html">Projekte</a>
-                    <a href="iperka.html">IPERKA</a>
-                    <a href="infos.html">Informationsbeschaffung</a>
-                    <a href="planung.html">Planung</a>
-                    <a href="vortrag.html">Vortrag</a>
-    
-    
-    
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="burgeer()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-            </div>
-    
-            <script>
-                function burgeer() {
-                    var links = document.getElementById("seitenLinks");
-                    if (links.style.display === "block") {
-                        links.style.display = "none";
-                    } else {
-                        links.style.display = "block";
-                    }
-                }
-            </script>
-    
-    
-        </header>
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio Larissa Skala</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navDesktop">
+            <ul>
+                <li>
+                    <a href="vortrag.html">Vortrag</a>
+                </li>
+                <li>
+                    <a href="planung.html">Planung</a>
+                </li>
+                <li>
+                    <a href="infos.html">Informationsbeschaffung</a>
+                </li>
+                <li>
+                    <a href="iperka.html">IPERKA</a>
+                </li>
+                <li>
+                    <a href="projekte.html">Projekte</a>
+                </li>
+                <li>
+                    <a href="organisation.html">Organisation</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="navMobile">
+            <a class="active">E-Portfolio</a>
+            <div id="seitenLinks">
+
+                <a href="index.html">Home</a>
+                <a href="organisation.html">Organisation</a>
+                <a href="projekte.html">Projekte</a>
+                <a href="iperka.html">IPERKA</a>
+                <a href="infos.html">Informationsbeschaffung</a>
+                <a href="planung.html">Planung</a>
+                <a href="vortrag.html">Vortrag</a>
+
+
+
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="burgeer()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        </div>
+
+        <script>
+            function burgeer() {
+                var links = document.getElementById("seitenLinks");
+                if (links.style.display === "block") {
+                    links.style.display = "none";
+                } else {
+                    links.style.display = "block";
+                }
+            }
+        </script>
+
+
+    </header>
+
+    <div class="seitenInhalt">
+        <h1>IPERKA</h1>
+        <hr>
+        <div id="iperka1" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>Was ist Iperka?</b>
+                <br><br>
+            <i>
+                Da ich nicht davon ausgehen kann, dass jeder Besucher dieser Seite weiss, was Iperka ist, erkläre ich das Ganze. Dies ist keine Aufgabe aus dem Dossier des Faches 431 und darum auch nicht im Quellenverzeichnis eingetragen.
+            </i>
+            </div>
+            <div class="aufgabe">
+                IPERKA ist eine von vielen Vorgehensweisen, ein Projekt zu planen. Jeder Buchstabe steht dabei für einen Planungsschritt. <br>
+                <br>
+                <b>Informieren:</b> Man sammelt Informationen über das Projekt. auf der einen Seite klärt man den Kundenwunsch genau ab, auf der anderen recherchiert man über das Technische,
+                zum Beispiel welche Programmiersprache geeignet ist oder welche Hardware benötigt wird.
+                <br><br>
+                <b>Planen:</b> Hat man genug Informationen, fängt man an zu Planen, wer und wie das Projekt umgesetzt wird. Meistens kommt man dabei auf mehr als einen Weg, weshalb dann der nächste Schritt benötigt wird:
+                <br><br>
+                <b>Entscheiden:</b> Nach der Planung wird entschieden, welcher Plan oder welche Teile der Planung ausgeführt werden. Manchmal wird dieser Schritt mit dem Kunde ausgeführt.
+                <br><br>
+                <b>Realisieren:</b> Der vermeindlich wichtigste Schritt: die Umsetzung des Projektes.
+                <br><br>
+                <b>Kontrollieren:</b> Das Produkt wird auf Herz und Nieren geprüft.
+                <br><br>
+                <b>Auswerten:</b> Man schaut nochmals über das Projekt: Was lief gut? Was nicht so? Was wird beim nächsten Mal anders gemacht?
+                <br><br>
+                Ich will jedoch gesagt haben, dass die Planung so gut wie nie so linear abläuft, wie IPERKA uns das zeigt. Geht zum Beispiel bei der Umsetzung etwas schief, muss man erneut Planen und Entscheiden.
+                
+            </div>
+            </div>
+            <hr>
+        <div id="iperka2" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>Arbeitsauftrag: IPERKA im Detail</b>
+                <br><br>
+                <i>
+                    Die Aufträge 1-4 beinhalteten das Erstellen einer Plakates zu den IPERKA-Schritten, in
+                    Dreiergruppen, was ich nicht genauer beschreiben werde.
+                </i>
+                <br><br>
+                <i>
+                    5) Beschreiben Sie in Ihrem E-Portfolio-Beitrag praktische Beispiele zu
+                    sämtlichen Schritten, Ihre Erfahrungen und Erkenntnisse daraus. Zur Illustration dürfen Sie Fotos
+                    der Plakate verwenden.
+
+                </i>
+                <br><br>
+                <i>
+                    6) Überlegen Sie sich, welche Schritte für Sie im IPERKA-Modell schwierig
+                    sind und welche Schritte Sie in Zukunft vermehrt beachten wollen. Gehen
+                    Sie dabei auf konkrete Beispiele ein.
+                </i>
+            </div>
+
+            <div class="aufgabe">
+                5) IPERKA Praxisbeispiele anhand dem Java-Projekt aus dem BLJ <br>
+                Informieren: Was ist genau die Aufgabe? Welche Dateien/Klassen wollen die Betreuer sehen? <br>
+                Planen: Verschiedene Pläne schmieden, mehrere Designs für das GUI erstellen, Klassendiagramm aufzeichnen
+                <br>
+                Entscheiden: gemeinsam mit dem Betreuer sich für den besten Weg entscheiden <br>
+                Realisieren: Das Projekt Programmieren <br>
+                Kontrollieren: Funktioniert der Code? Ist die Oberfläche benutzerfreundlich? <br>
+                Auswerten: Was ist gut gelaufen? Was eher nicht? Was mache ich beim nächsten Mal besser? <br>
+                6) Im IPERKA-Modell die schwierigeren Schritte sind für mich persönlich die Planung, da ich eher ein
+                chaotischer Mensch bin und die Entscheidung, wobei in der Praxis der Kunde einem dabei zur Seite steht.
+            </div>
+        </div>
+
+        <hr>
+        <div id="iperka3" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>Arbeitsauftrag: Praxisbeispiel</b>
+                <i>Eine strukturierte Vorgehensweise wie z.B. nach IPERKA zahlt sich schon bei
+                    kleinen Projekten aus, weil Sie dadurch jederzeit den Überblick erhalten, über:
+                    <ul>
+                        <li>die zu unternehmenden Schritte</li>
+                        <li>die auszuführenden Tätigkeiten</li>
+                        <li>die zu beantwortenden Fragen</li>
+                    </ul>
+
+                    Überprüfen Sie diese Behauptung, indem Sie die Schritte und Tätigkeiten bei
+                    der Implementierung einer Softwareanwendung nachzeichnen.
+                </i>
+            </div>
+
+            <div class="aufgabe">
+                Praktisches Beispiel, wie es bei Stadler umgesetzt werden könnte, da ich es Interessanter finde, ein für
+                mich praxisbezogeneres Beispiel zu verwenden, als eine Aufgabe im Basislehrjahr.
+                <br><br>
+                I: was will der Kunde? Was Zahlt er? Bis wann braucht er es? Am besten klärt man das mit dem Kunden ab.
+                <br>
+                P: Wer Abteilung macht was? Zeitfenster? Das mit mehreren Möglichkeiten <br>
+                E: entscheiden, welcher Plan umgesetzt wird, ev. Mit Kunde einen Termin abmachen. <br>
+                R: der Zug wird wie geplant gebaut <br>
+                K: Tests in der IBS, überprüfen ob alles beachtet wurde <br>
+                A: das Projekt wird nochmal angeschaut. Was kann man beim nächsten besser machen? Was ging gut? <br>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <address>
@@ -81,11 +182,12 @@
             Larissa Skala <br>
             09.05.2022 <br>
             Entwurf
-            </address>
-        
+        </address>
+
         <div>
             <i>jegliche Haftung wird abgelehnt</i>
         </div>
     </footer>
 </body>
+
 </html>
