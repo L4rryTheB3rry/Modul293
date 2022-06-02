@@ -1,78 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E-Portfolio Larissa Skala</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    
-    <body>
-    
-        <header>
-            <div class="navDesktop">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio Larissa Skala</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navDesktop">
+            <ul>
+                <li>
+                    <a href="vortrag.html">Vortrag</a>
+                </li>
+                <li>
+                    <a href="planung.html">Planung</a>
+                </li>
+                <li>
+                    <a href="infos.html">Informationsbeschaffung</a>
+                </li>
+                <li>
+                    <a href="iperka.html">IPERKA</a>
+                </li>
+                <li>
+                    <a href="projekte.html">Projekte</a>
+                </li>
+                <li>
+                    <a href="organisation.html">Organisation</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="navMobile">
+            <a class="active">E-Portfolio</a>
+            <div id="seitenLinks">
+
+                <a href="index.html">Home</a>
+                <a href="organisation.html">Organisation</a>
+                <a href="projekte.html">Projekte</a>
+                <a href="iperka.html">IPERKA</a>
+                <a href="infos.html">Informationsbeschaffung</a>
+                <a href="planung.html">Planung</a>
+                <a href="vortrag.html">Vortrag</a>
+
+
+
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="burgeer()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        </div>
+
+        <script>
+            function burgeer() {
+                var links = document.getElementById("seitenLinks");
+                if (links.style.display === "block") {
+                    links.style.display = "none";
+                } else {
+                    links.style.display = "block";
+                }
+            }
+        </script>
+
+
+    </header>
+
+    <div class="seitenInhalt">
+        <h1>Planung</h1>
+        <hr>
+        <div id="planung1" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>Arbeitsauftrag: Eigene Planung</b>
+                <br><br>
+                <i>
+                    1) Haben Sie bisher eine Tagesplanung erstellt? <br>
+                    Versuchen Sie eine Tagesplanung mit der ALPEN-Methode über mehrere
+                    Tage zu erstellen und notieren Sie sich die Planung schriftlich. Am Ende
+                    des Tages kontrollieren Sie, was gut funktioniert hat und wo Sie sich verplant haben. Versuchen Sie
+                    diese Erkenntnisse in nachfolgende Tagesplanung einfliessen zu lassen. Dokumentieren Sie Ihre
+                    Ergebnisse.
+                </i>
+                <i>
+                    2) Verfassen Sie ein E-Portfolio-Eintrag in welchem Sie über Ihre eigene Tagesplanung reflektieren.
+                    Folgende Fragen können Ihnen dazu helfen:
+                    <ul>
+                        <li>Welche Erfahrungen haben Sie mit der ALPEN-Methode gemacht?</li>
+                        <li>Lohnt sich eine Tagesplanung aus Ihrer Sicht?</li>
+                        <li>Welche Tools verwenden Sie für Ihre Tagesorganisation?</li>
+                    </ul>
+                </i>
+            </div>
+
+            <div class="aufgabe">
+                1) Ja, ich habe schon Tagesplanungen erstellt, aber nur gedanklich und nicht schriftlich. Ich mache mir
+                meistens eine Planung im Kopf fürs Wochenende. Das Problem an der Sache ist, dass meine Eltern mir gerne
+                mit irgend einem Blödsinn einen Strich durch die Rechnung machen.
+                <br><br>
+                Tagesplanung mit der ALPEN-Methode für den kommenden Mittwoch (25.5.22) <br><br>
+
+                <div class="gehMitte">
+                    <img id="alpenBild" src="alpen.png" alt="">
+                </div>
+
+                A für Aufgaben
+
+                <ul>
+                    <li>Arbeiten</li>
+                    <li>Motorrad holen/Kollege besuchen (geht in einem)</li>
+                    <li>E-Portfolio bearbeiten</li>
+                    <li>Fahrtweg</li>
+                </ul>
+
+
+                L für Länge schätzen
+
+                <ul>
+                    <li>Arbeiten: 8h 45</li>
+                    <li>Motorrad holen/ Kollegen besuchen: 4h</li>
+                    <li>E-Portfolio bearbeiten: 2h</li>
+                    <li>Fahrtweg: 2h</li>
+                </ul>
+
+                P für Puffer einplanen
+
+                <ul>
+                    <li>Arbeiten (fix): 8.75</li>
+                    <li>Motorrad holen/ Kollegen besuchen: 5.6h</li>
+                    <li>E-Portfolio bearbeiten: 2.8h</li>
+                    <li>Fahrtweg (fix): 2h</li>
+                </ul>
+
+                Insgesamt: 19.15h, mehr als ein Tag bietet <br><br>
+
+                E für Entscheiden <br>
+                Zwei der Aufgaben können und müssen gekürzt werden:
+                <ul>
+                    <li>Motorrad holen/ Kollegen besuchen: 3h</li>
+                    <li>E-Portfolio bearbeiten: 1h</li>
+                </ul>
+                Insgesamt: 14.75, würde passen
+                <br><br>
+
+                N für Nachkontrolle <br><br>
                 <ul>
                     <li>
-                        <a href="vortrag.html">Vortrag</a>
-                    </li>
-                    <li>
-                        <a href="planung.html">Planung</a>
-                    </li>
-                    <li>
-                        <a href="infos.html">Informationsbeschaffung</a>
-                    </li>
-                    <li>
-                        <a href="iperka.html">IPERKA</a>
-                    </li>
-                    <li>
-                        <a href="projekte.html">Projekte</a>
-                    </li>
-                    <li>
-                       <a href="organisation.html">Organisation</a> 
-                    </li>
-                    <li>
-                       <a href="index.html">Home</a> 
+                        Zeit fürs Essen wurde bei der Arbeit und bei meinem Kollegen eingerechnet. Somit wurde alles
+                        beachtet und ist so umsetzbar.
+
                     </li>
                 </ul>
-    
+
+                2) Grossartig erfahrungen gemacht habe ich mit der ALPEN-Methode noch nicht, denn ich habe sie in diesem
+                Auftrag zum ersten Mal verwendet.
+                Ich kann nur sagen, dass sich eine Tagesplanung für mich nicht Lohnt, da erstens das Verhältnis zwischen
+                Aufwand und Ertrag nicht stimmt, und
+                zweitens trifft meist alles anders ein, als ich es geplant hatte. Um meinen Tag zu organisieren verwende
+                ich die Kalender App auf meinem Handy,
+                um mir Termine oder ähnliches einzutragen und Tasks in Planner und To Do, welches im Teams integriert
+                ist.
+
             </div>
-    
-            <div class="navMobile">
-                <a  class="active">E-Portfolio</a>
-                <div id="seitenLinks">
-    
-                    <a href="index.html">Home</a>
-                    <a href="organisation.html">Organisation</a>
-                    <a href="projekte.html">Projekte</a>
-                    <a href="iperka.html">IPERKA</a>
-                    <a href="infos.html">Informationsbeschaffung</a>
-                    <a href="planung.html">Planung</a>
-                    <a href="vortrag.html">Vortrag</a>
-    
-    
-    
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="burgeer()">
-                    <i class="fa fa-bars"></i>
-                </a>
+        </div>
+        <hr>
+        <div id="planung2" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>
+                    Arbeitsauftrag: Reflexion Arbeitsplanung
+                </b>
+                <br><br>
+                <i>
+                    1) Beschreiben Sie Ihre Arbeitsplanung. Zeigen Sie auf, wie in Ihrem Lehrbetrieb Aufgaben verteilt
+                    werden und wie Sie als Mitarbeiter wissen, wer was
+                    macht.
+                </i>
+                <br><br>
+                <i>
+                    2) Was für ein System setzen Sie zur Arbeitsplanung Ihrer sonstigen Aktivitäten ein (Schule,
+                    Freizeit)?
+
+                </i>
+                <br><br>
+                <i>
+                    3) Was gelingt Ihnen besonders gut bei Ihrer Arbeitsplanung, respektive wo
+                    haben Sie noch Optimierungspotential? Beschreiben und begründen Sie
+                    ausführlich.
+                </i>
             </div>
+            <div class="aufgabe">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorum dolorem voluptas optio, ex
+                laborum, vitae sint perferendis ratione quam consequuntur, architecto perspiciatis eius sit veritatis
+                at. A, hic impedit?
             </div>
-    
-            <script>
-                function burgeer() {
-                    var links = document.getElementById("seitenLinks");
-                    if (links.style.display === "block") {
-                        links.style.display = "none";
-                    } else {
-                        links.style.display = "block";
-                    }
-                }
-            </script>
-    
-    
-        </header>
+        </div>
+
+    </div>
+
 
 
     <footer>
@@ -81,11 +213,12 @@
             Larissa Skala <br>
             09.05.2022 <br>
             Entwurf
-            </address>
-        
+        </address>
+
         <div>
             <i>jegliche Haftung wird abgelehnt</i>
         </div>
     </footer>
 </body>
+
 </html>

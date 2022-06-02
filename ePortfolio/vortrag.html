@@ -1,90 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E-Portfolio Larissa Skala</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    
-    <body>
-    
-        <header>
-            <div class="navDesktop">
-                <ul>
-                    <li>
-                        <a href="vortrag.html">Vortrag</a>
-                    </li>
-                    <li>
-                        <a href="planung.html">Planung</a>
-                    </li>
-                    <li>
-                        <a href="infos.html">Informationsbeschaffung</a>
-                    </li>
-                    <li>
-                        <a href="iperka.html">IPERKA</a>
-                    </li>
-                    <li>
-                        <a href="projekte.html">Projekte</a>
-                    </li>
-                    <li>
-                       <a href="organisation.html">Organisation</a> 
-                    </li>
-                    <li>
-                       <a href="index.html">Home</a> 
-                    </li>
-                </ul>
-    
-            </div>
-    
-            <div class="navMobile">
-                <a  class="active">E-Portfolio</a>
-                <div id="seitenLinks">
-    
-                    <a href="index.html">Home</a>
-                    <a href="organisation.html">Organisation</a>
-                    <a href="projekte.html">Projekte</a>
-                    <a href="iperka.html">IPERKA</a>
-                    <a href="infos.html">Informationsbeschaffung</a>
-                    <a href="planung.html">Planung</a>
-                    <a href="vortrag.html">Vortrag</a>
-    
-    
-    
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="burgeer()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-            </div>
-    
-            <script>
-                function burgeer() {
-                    var links = document.getElementById("seitenLinks");
-                    if (links.style.display === "block") {
-                        links.style.display = "none";
-                    } else {
-                        links.style.display = "block";
-                    }
-                }
-            </script>
-    
-    
-        </header>
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio Larissa Skala</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navDesktop">
+            <ul>
+                <li>
+                    <a href="vortrag.html">Vortrag</a>
+                </li>
+                <li>
+                    <a href="planung.html">Planung</a>
+                </li>
+                <li>
+                    <a href="infos.html">Informationsbeschaffung</a>
+                </li>
+                <li>
+                    <a href="iperka.html">IPERKA</a>
+                </li>
+                <li>
+                    <a href="projekte.html">Projekte</a>
+                </li>
+                <li>
+                    <a href="organisation.html">Organisation</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="navMobile">
+            <a class="active">E-Portfolio</a>
+            <div id="seitenLinks">
+
+                <a href="index.html">Home</a>
+                <a href="organisation.html">Organisation</a>
+                <a href="projekte.html">Projekte</a>
+                <a href="iperka.html">IPERKA</a>
+                <a href="infos.html">Informationsbeschaffung</a>
+                <a href="planung.html">Planung</a>
+                <a href="vortrag.html">Vortrag</a>
+
+
+
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="burgeer()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        </div>
+
+        <script>
+            function burgeer() {
+                var links = document.getElementById("seitenLinks");
+                if (links.style.display === "block") {
+                    links.style.display = "none";
+                } else {
+                    links.style.display = "block";
+                }
+            }
+        </script>
+
+
+    </header>
+
+    <div class="seitenInhalt">
+        <h1>Vorträge</h1>
+        <hr>
+        <div id="vortrag1" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>Arbeitsauftrag: Checkliste Präsentation</b>
+                <br><br>
+                <i>
+                    1) Erstellen Sie sich eine elektronische Checkliste zur Vorbereitung, Durchführung und das Beenden
+                    von Präsentationen.
+
+                </i>
+                <br><br>
+                <i>
+                    2) Welche Punkte haben Sie bisher bei Präsentationen berücksichtigt, welche weniger? Erläutern Sie
+                    mit Beispielen.
+                </i>
+                <br><br>
+                <i>
+                    3) Auf welche Punkte möchten Sie sich für zukünftige Präsentationen vermehrt achten?
+
+                </i>
+            </div>
+
+            <div class="aufgabe">
+                1)Vorbereitung <br><br>
+                Nachdenken übers Thema:
+
+                <ul>
+                    <li>Wie Umsetzen</li>
+                    <li>Was weiss ich</li>
+                    <li>welche und ob Software</li>
+                </ul>
+
+                Planen:
+                <ul>
+                    <li>wichtige Begriffe</li>
+                    <li>sachen die nicht vergessen werden dürfen</li>
+                    <li>roter Faden</li>
+                </ul>
+
+                Recherchieren:
+
+                <ul>
+                    <li>Notizen</li>
+                    <li>Gliederung</li>
+                </ul>
+
+                Üben:
+                <ul>
+                    <li>wiederholen</li>
+                    <li>Bekannten vortragen</li>
+                </ul>
+
+                Visuelles:
+                <ul>
+                    <li>Bilder (Verknüpfung von Wissen mit Visuellem)</li>
+                    <li>wenig Text / nur Schlagworte</li>
+                    <li>nicht zu viele Übergänge/Animationen</li>
+                </ul>
+
+                Durchführung:
+                <br><br>
+                Mündliches
+                <ul>
+                    <li>sich auf das Mündliche konzentrieren</li>
+                    <li>fliessend sprechen</li>
+                    <li>langsam und deutlich</li>
+                </ul>
+
+                Körpersprache
+                <ul>
+                    <li>Blickkontakt</li>
+                    <li>Selbstbewusst</li>
+                </ul>
+
+                Beenden:
+                <ul>
+                    <li>Fragen beantworten</li>
+                    <li>bedanken</li>
+                </ul>
+
+                2/3)
+                Ich habe eher weniger auf das Beenden geachtet da ich einfach froh war wenn ich gehen konnte und werde
+                das in Zukunft mehr beachten
+            </div>
+        </div>
+
+        <div id="vortrag2" class="aufgabeGrp">
+            <div class="beschreibung">
+                <b>Arbeitsauftrag: Für alle Lernenden(!)</b>
+                <i>
+                    Sämtliche Vorträge sollen von den Lernenden reflektiert und die Er-kenntnisse
+                    ins persönliche E-Portfolio eingefügt werden. Unter anderem sollen die folgenden Fragen beantwortet
+                    werden:
+                    Kann ich diese Technik selbst anwenden? Habe ich diese Technik bereits angewendet? Welche
+                    Erfahrungen machte ich mit dieser Technik? Werde ich
+                    diese Technik weiterhin verwenden und in welchen Situationen?
+                    Begründen Sie sämtliche Antworten ausführlich.
+                </i>
+            </div>
+
+            <div class="aufgabe">
+                Brainstorming - Tim & Ylli
+                <br><br>
+                Die Methode dient zur eher kreativen Ideenfindung und kann grundsätzlich von jedem ausgeführt werden,
+                wird aber hauptsächlich angewendet in der Produktentwicklung und bei Problemen mit einfacherer
+                Komplexität und auch bei einem Einstieg in ein neues Thema. <br>
+                Brainstorming findet häufig in Gruppen statt. Es wird zwischen zwei Arten unterschieden: Moderiertes
+                Brainstorming und nicht moderiertes Brainstorming. Beim Moderierten Brainstorming werden einzelne Ideen
+                hervorgehoben und Aufgelistet. Erfahrungsgemäss ist diese Technik manchmal effektiv, hat man aber einen
+                Knopf und einem fällt nichts ein wird das Ganze schnell ermüdend. Ich persönlich verwende diese Technik,
+                wenn ich noch gar nicht weiss was ich jetzt mache, zum Beispiel bei der Projektarbeit in der Oberstufe
+                oder beim freien Arbeiten im Basislehrjahr. Brainwriting, welches ein Teil des Vortrags war, habe ich
+                noch nie Verwendet, jedoch finde ich den Ansatz interessant: die entstandene Idee wird ausgearbeitet,
+                indem man zusammen sitzt und darüber grübelt, wie man das Ganze umsetzt. Dabei bekommt jeder direktes
+                Feedback und alle sind gleichgestellt. Da es aber einen Rhythmus gibt (6 Teilnehmende, die 3 Ideen in 5
+                Arbeitsdurchgängen à x-Minuten durcharbeiten) ist die Methode manchmal zeitlich nicht passend.
+                <br><br><br>
+
+
+
+                Mindmap - Sullivan & Lenny
+                <br><br>
+                Mindmaps werden häufig bei Vorgetragenem oder bei neuen Themen verwendet. Dabei nimmt man sich ein
+                Leeres Blatt und schreibt in die Mitte das Thema. Rund herum werden dann Begriffe notiert, die einem zum
+                Thema einfallen. Das Ganze hat keine Zeitachse und mit einem Mindmap kann man ein Thema visuell
+                darstellen, was beide Gehirnhälften anspricht durch Text und Bild. Wird das Mindmap gut umgesetzt, ist
+                es übersichtlich und erweiterbar. Bei zu komplexen Sachen ist ein Mindmap jedoch nicht zu empfehlen, da
+                es zu unübersichtlich wird. Diese Technik habe ich des Öfteren angewendet, hauptsächlich beim
+                zusammenlegen und Verknüpfen von Informationen und beim Brainstorming. Diese Technik wurde uns früh in
+                der Schule beigebracht. Am liebsten erstelle ich ein Mindmap digital, da es dadurch einfacher ist, es
+                bei einem Fehler nochmals zu bearbeiten und der Platz ist nicht, wie bei einem Blatt Papier, begrenzt.
+                <br><br><br>
+                Walt-Disney-Methode - Pascal & Markus
+                <br><br>
+                Die Walt Disney Methode ist nicht, wie der Name vermuten lässt von Walt Disney, aber wurde nach ihm
+                benannt, da ihm nach gesagt wird, er hatte drei Persönlichkeiten: eine Träumende, eine Realistische und
+                eine Kritische. Diese drei Eigenschaften werden genutzt bei dieser Methode: man teilt die Planenden in
+                drei Gruppen ein: Träumende, die ohne irgend einen Gedanken daran zu verschwenden, ob das Ganze
+                umsetzbar ist, Ideen zusammentragen. Dann Realisten, die die Ideen der Träumer auseinander nehmen und
+                beurteilen, wie man die Ideen umsetzen könnte. Die Kritiker kommen als letztes und überprüfen, ob die
+                Arbeit von Realisten und Träumern Sinn macht. Beim Vortrag im Unterricht haben wir diese Methode
+                ausprobiert und es war eine Erfrischende Möglichkeit Ideen zu sammeln und dabei starre Denkmuster
+                aufzubrechen. Ich alleine werde diese Technik nicht anwenden, da sie nicht möglich ist und sie ist dazu
+                noch recht Zeitaufwendig, aber vielleicht bin ich in ein paar Jahren in einer Position, in der ich eine
+                Gelegenheit habe, sie doch mal richtig zu gebrauchen.
+                <br><br><br>
+                Speed Reading - Toby & Dado
+                <br><br>
+                Speed Reading ist eine Technik, um Texte schneller und konzentrierter zu Lesen. Dabei muss man erst mal
+                die Vokalisierung (im Kopf mitreden beim Lesen) loswerden und sich auf Wortgruppen zu fixieren. Dabei
+                muss man in Gedanken beim Text bleiben, da kann es helfen, das Gelesene abzudecken. Dadurch merkt man
+                sich den Inhalt besser und hat ein schnelleres Lesetempo. Bei schweren Texten werden diese zwei Mal
+                gelesen, anstatt sie langsamer zu lesen. Ich selber habe diese Technik schon Unterbewusst angewendet,
+                werde dies aber demnächst bewusst ausprobieren, um zu sehen, ob ich mich besser auf den Text
+                konzentrieren kann. Vielleicht komme ich dann wieder mehr Lust zu lesen.
+                <br><br><br>
+                SMART - Konstantin & Mario
+                <br><br>
+                SMART ist eine Abkürzung aus dem Englischen und steht für <br>
+                S - Spezifisch: Ziel klar Formulieren, keine Unnötigen Details <br>
+                M - Messbar: Messbare Werte Festlegen, um Fortschritt zu beurteilen <br>
+                A - Attraktiv/Akzeptiert: Ist das Erreichen des Zieles lohnenswert, Wurde so Geplant dass man Lust hat
+                darauf <br>
+                R - Realistisch: ist das Ziel realistisch zu Erreichen <br>
+                T - Terminiert: Deadline(s) setzen <br><br>
+
+                Durch diese Schritte kann man mit geringem Aufwand und erleichterter Umsetzung klare Prioritäten setzen.
+                Dabei sind aber nicht alle Punkte notwendig für jedes Ziel. Leider ist diese Technik wenig flexibel,
+                schränkt die Flexibilität ein und kann durch die strikte Strukturierung Leistungsdruck erschaffen.
+                Verwendet habe ich SMART bisher noch nicht, jedoch finde ich die Herangehensweise interessant und werde
+                es bei Gelegenheit ausprobieren.
+            </div>
+        </div>
+    </div>
     <footer>
         <address>
             E-Portfolio <br>
             Larissa Skala <br>
             09.05.2022 <br>
             Entwurf
-            </address>
-        
+        </address>
+
         <div>
             <i>jegliche Haftung wird abgelehnt</i>
         </div>
     </footer>
 </body>
+
 </html>

@@ -124,7 +124,7 @@ h2{
 
 .boxInhalt{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 p{
@@ -141,6 +141,10 @@ p{
   border-radius: 10px;
   margin: 10px;
   
+}
+
+.boxInhalt a div:hover{
+  background-color: #a57391;
 }
 
 a{
@@ -180,6 +184,7 @@ a{
 .verzeichnisse{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .quellenBox{
@@ -230,6 +235,10 @@ td{
 #img2{
   width: 200%;
   height:fit-content;  
+}
+
+#alpenBild{
+  width: 600px;
 }
 
 /* media queries  */
