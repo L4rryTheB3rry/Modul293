@@ -226,15 +226,13 @@ td{
   border-top: bold #333 3px ;
 }
 
-/*Bilder*/
-#img1{
-  width: 200%;
-  height:fit-content;
+#quelleAufgaben{
+  margin: 20px;
 }
 
-#img2{
-  width: 200%;
-  height:fit-content;  
+/*Bilder*/
+.organisationImg{
+  height: 300px;
 }
 
 #alpenBild{
@@ -282,6 +280,21 @@ td{
 @media (min-width: 970px) {
   .navMobile {
     display: none;
+  }
+}
+
+@media (max-width: 1240px){
+  .organisationImg{
+    flex-basis: auto;
+    height: auto;
+    width: 300px;
+    margin: 15px;
+  }
+
+  .bilderrahmen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
