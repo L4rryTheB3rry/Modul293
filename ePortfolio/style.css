@@ -239,6 +239,10 @@ td{
   width: 600px;
 }
 
+#imgGantt{
+  max-width: 600px;
+}
+
 /* media queries  */
 
 /*Smartphone*/
@@ -273,6 +277,14 @@ td{
   .verzeichnisse{
     flex-wrap: wrap;
     
+  }
+
+  #alpenBild{
+    width: 100%;
+  }
+
+  #imgGantt{
+    max-width: 100%;
   }
 }
 
